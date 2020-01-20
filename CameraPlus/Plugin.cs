@@ -50,6 +50,9 @@ namespace CameraPlus
             // Add our default cameraplus camera
             CameraUtilities.AddNewCamera(Plugin.MainCamera);
 
+
+            CameraProfiles.CreateMainDirectory();
+
             Logger.Log($"{Plugin.Name} has started", LogLevel.Notice);
         }
 
